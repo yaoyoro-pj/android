@@ -1087,4 +1087,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/los21-pre-qpr2.xml" />
+  <include name="snippets/yaoyoro.xml" />
 </manifest>

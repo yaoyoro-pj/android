@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yaoyoro"
+          fetch="https://github.com/yaoyoro-pj" />
+
+  <!-- LOS removes -->
+  <remove-project path="build/make" />
+  <remove-project path="build/soong" />
+  <remove-project path="android" />
+  <remove-project path="art" />
+  <remove-project path="bionic" />
+  <remove-project path="frameworks/av" />
+  <remove-project path="frameworks/base" />
+  <remove-project path="frameworks/native" />
+  <remove-project path="system/core" />
+  <remove-project path="vendor/lineage" />
+  <remove-project path="packages/apps/Contacts" />
+  <remove-project path="packages/apps/DeskClock" />
+  <remove-project path="packages/apps/Dialer" />
+  <remove-project path="packages/apps/DocumentsUI" />
+  <remove-project path="packages/apps/Messaging" />
+  <remove-project path="packages/apps/Settings" />
+  <remove-project path="packages/apps/Trebuchet" />
+  <remove-project path="packages/modules/Permission" />
+
+  <!-- yaoyoro swaps ~ -->
+  <project name="android_build" remote="yaoyoro" path="build/make" revision="lineage-21.0" groups="pdk">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+    <linkfile src="core" dest="build/core"/>
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
+  </project>
+  <project name="android_build_soong" remote="yaoyoro" revision="lineage-21.0" path="build/soong" groups="pdk,tradefed">
+    <linkfile src="root.bp" dest="Android.bp"/>
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
+  </project>
+
+  <project name="android" remote="yaoyoro" path="android" revision="lineage-21.0"/>
+  <project name="android_art" path="art" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
+  <project name="android_bionic" path="bionic" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
+  <project name="android_frameworks_av" remote="yaoyoro" path="frameworks/av" revision="lineage-21.0" groups="pdk"/>
+  <project name="android_frameworks_base" remote="yaoyoro" path="frameworks/base" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="android_frameworks_native" remote="yaoyoro" path="frameworks/native" revision="lineage-21.0" groups="pdk"/>
+  <project name="android_system_core" remote="yaoyoro" path="system/core" revision="lineage-21.0" groups="pdk"/>
+  <project name="android_vendor_lineage" remote="yaoyoro" path="vendor/lineage" revision="lineage-21.0"/>
+
+  <project name="android_packages_apps_Contacts" remote="yaoyoro" path="packages/apps/Contacts" revision="lineage-21.0" groups="pdk-fs"/>
+  <project name="android_packages_apps_DeskClock" remote="yaoyoro" path="packages/apps/DeskClock" revision="lineage-21.0" groups="pdk-fs"/>
+  <project name="android_packages_apps_Dialer" remote="yaoyoro" path="packages/apps/Dialer" revision="lineage-21.0" groups="pdk-fs"/>
+  <project name="android_packages_apps_DocumentsUI" remote="yaoyoro" path="packages/apps/DocumentsUI" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="android_packages_apps_Messaging" remote="yaoyoro" path="packages/apps/Messaging" revision="lineage-21.0" groups="pdk-fs"/>
+  <project name="android_packages_apps_Settings" remote="yaoyoro" path="packages/apps/Settings" revision="lineage-21.0" groups="pdk-fs"/>
+  <project name="android_packages_apps_Trebuchet" remote="yaoyoro" path="packages/apps/Trebuchet" revision="lineage-21.0" groups="pdk-fs"/>
+  <project name="android_packages_modules_Permission" remote="yaoyoro" path="packages/modules/Permission" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
+</manifest>
