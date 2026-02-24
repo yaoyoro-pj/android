@@ -22,6 +22,7 @@
   <remove-project path="packages/apps/Messaging" />
   <remove-project path="packages/apps/Settings" />
   <remove-project path="packages/apps/Trebuchet" />
+  <remove-project path="packages/apps/Updater" />
   <remove-project path="packages/modules/Permission" />
 
   <!-- yaoyoro swaps ~ -->
