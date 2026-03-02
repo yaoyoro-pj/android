@@ -9,6 +9,7 @@
   <remove-project path="android" />
   <remove-project path="art" />
   <remove-project path="bionic" />
+  <remove-project path="device/lineage/sepolicy" />
   <remove-project path="external/dng_sdk" />
   <remove-project path="external/jemalloc_new" />
   <remove-project path="frameworks/av" />
@@ -47,6 +48,7 @@
   <project name="android" remote="yaoyoro" path="android" revision="lineage-21.0"/>
   <project name="android_art" path="art" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
   <project name="android_bionic" path="bionic" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
+  <project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
   <project name="android_external_dng_sdk" remote="yaoyoro" path="external/dng_sdk" revision="lineage-21.0" groups="pdk"/>
   <project name="android_external_jemalloc_new" remote="yaoyoro" path="external/jemalloc_new" revision="unity" groups="pdk"/>
   <project name="android_frameworks_av" remote="yaoyoro" path="frameworks/av" revision="lineage-21.0" groups="pdk"/>
