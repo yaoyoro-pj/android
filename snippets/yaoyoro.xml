@@ -15,6 +15,7 @@
   <remove-project path="external/jemalloc_new" />
   <remove-project path="frameworks/av" />
   <remove-project path="frameworks/base" />
+  <remove-project path="frameworks/libs/systemui" />
   <remove-project path="frameworks/native" />
   <remove-project path="hardware/lineage/interfaces" />
   <remove-project path="system/core" />
@@ -60,6 +61,7 @@
   <project name="android_external_jemalloc_new" remote="yaoyoro" path="external/jemalloc_new" revision="unity" groups="pdk"/>
   <project name="android_frameworks_av" remote="yaoyoro" path="frameworks/av" revision="lineage-21.0" groups="pdk"/>
   <project name="android_frameworks_base" remote="yaoyoro" path="frameworks/base" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="android_frameworks_libs_systemui" remote="yaoyoro" path="frameworks/libs/systemui" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="android_frameworks_native" remote="yaoyoro" path="frameworks/native" revision="lineage-21.0" groups="pdk"/>
   <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
   <project name="android_prebuilts_exthmui-sdk" remote="yaoyoro" path="prebuilts/exthmui-sdk" revision="Utsuho"/>
