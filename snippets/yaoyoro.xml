@@ -11,6 +11,7 @@
   <remove-project path="bionic" />
   <remove-project path="bootable/recovery" />
   <remove-project path="device/lineage/sepolicy" />
+  <remove-project path="external/arm-optimized-routines" />
   <remove-project path="external/dng_sdk" />
   <remove-project path="external/jemalloc_new" />
   <remove-project path="frameworks/av" />
@@ -57,6 +58,7 @@
   <project name="android_bionic" path="bionic" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
   <project name="android_bootable_recovery" remote="yaoyoro" path="bootable/recovery" revision="lineage-21.0" groups="pdk"/>
   <project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
+  <project name="android_external_arm-optimized-routines" remote="yaoyoro" path="external/arm-optimized-routines" revision="yaoyoro-14.1" groups="pdk"/>
   <project name="android_external_dng_sdk" remote="yaoyoro" path="external/dng_sdk" revision="lineage-21.0" groups="pdk"/>
   <project name="android_external_google-fonts_google-sans-flex" path="external/google-fonts/google-sans-flex" remote="yaoyoro" revision="lineage-21.0" />
   <project name="android_external_jemalloc_new" remote="yaoyoro" path="external/jemalloc_new" revision="unity" groups="pdk"/>
