@@ -33,6 +33,7 @@
   <remove-project path="packages/apps/SetupWizard" />
   <remove-project path="packages/apps/Trebuchet" />
   <remove-project path="packages/apps/Updater" />
+  <remove-project path="packages/apps/WallpaperPicker2" />
   <remove-project path="packages/inputmethods/LatinIME" />
   <remove-project path="packages/modules/Permission" />
   <remove-project path="packages/modules/Wifi" />
@@ -81,6 +82,7 @@
   <project name="android_packages_apps_Settings" remote="yaoyoro" path="packages/apps/Settings" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="android_packages_apps_SetupWizard" remote="yaoyoro" path="packages/apps/SetupWizard" revision="lineage-21.0"/>
   <project name="android_packages_apps_Launcher3" remote="yaoyoro" path="packages/apps/Launcher3" revision="lineage-21.0" groups="pdk-fs"/>
+  <project name="android_packages_apps_WallpaperPicker2" remote="yaoyoro" path="packages/apps/WallpaperPicker2" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="android_packages_inputmethods_LatinIME" remote="yaoyoro" path="packages/inputmethods/LatinIME" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="android_packages_modules_Permission" remote="yaoyoro" path="packages/modules/Permission" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="android_packages_modules_Wifi" remote="yaoyoro" path="packages/modules/Wifi" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
