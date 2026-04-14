@@ -19,6 +19,7 @@
   <remove-project path="frameworks/libs/systemui" />
   <remove-project path="frameworks/native" />
   <remove-project path="hardware/lineage/interfaces" />
+  <remove-project path="kernel/configs" />
   <remove-project path="system/core" />
   <remove-project path="system/memory/libmeminfo" />
   <remove-project path="system/memory/lmkd" />
@@ -70,6 +71,7 @@
   <project name="android_frameworks_libs_systemui" remote="yaoyoro" path="frameworks/libs/systemui" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="android_frameworks_native" remote="yaoyoro" path="frameworks/native" revision="lineage-21.0" groups="pdk"/>
   <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
+  <project name="android_kernel_configs" remote="yaoyoro" path="kernel/configs" revision="lineage-21.0" groups="vts,pdk"/>
   <project name="android_prebuilts_exthmui-sdk" remote="yaoyoro" path="prebuilts/exthmui-sdk" revision="Utsuho"/>
   <project name="android_system_core" remote="yaoyoro" path="system/core" revision="lineage-21.0" groups="pdk"/>
   <project name="android_system_memory_libmeminfo" remote="yaoyoro" path="system/memory/libmeminfo" revision="yaoyoro-14.1" groups="pdk"/>
