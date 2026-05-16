@@ -43,6 +43,13 @@
   <remove-project path="packages/modules/Bluetooth" />
   <remove-project path="packages/modules/Wifi" />
   <remove-project path="packages/overlays/Lineage" />
+  <remove-project path="lineage/wiki" />
+  <remove-project path="lineage/hudson" />
+  <remove-project path="lineage/mirror" />
+  <remove-project path="lineage/charter" />
+  <remove-project path="lineage/crowdin" />
+  <remove-project path="lineage/website" />
+  <remove-project path="lineage/contributors-cloud-generator" />
 
   <!-- yaoyoro swaps ~ -->
   <project name="android_build" remote="yaoyoro" path="build/make" revision="lineage-21.0" groups="pdk">
