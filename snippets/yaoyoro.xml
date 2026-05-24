@@ -34,6 +34,7 @@
   <remove-project path="packages/apps/LineageParts" />
   <remove-project path="packages/apps/Messaging" />
   <remove-project path="packages/apps/Settings" />
+  <remove-project path="packages/apps/SettingsIntelligence" />
   <remove-project path="packages/apps/SetupWizard" />
   <remove-project path="packages/apps/ThemePicker" />
   <remove-project path="packages/apps/Trebuchet" />
@@ -97,6 +98,7 @@
   <project name="android_packages_apps_LineageParts" remote="yaoyoro" path="packages/apps/LineageParts" revision="lineage-21.0"/>
   <project name="android_packages_apps_Messaging" remote="yaoyoro" path="packages/apps/Messaging" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="android_packages_apps_Settings" remote="yaoyoro" path="packages/apps/Settings" revision="lineage-21.0" groups="pdk-fs"/>
+  <project name="android_packages_apps_SettingsIntelligence" remote="yaoyoro" path="packages/apps/SettingsIntelligence" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="android_packages_apps_SetupWizard" remote="yaoyoro" path="packages/apps/SetupWizard" revision="lineage-21.0"/>
   <project name="android_packages_apps_Runa" remote="yaoyoro" path="packages/apps/Runa" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="android_packages_apps_ThemePicker" remote="yaoyoro" path="packages/apps/ThemePicker" revision="lineage-21.0" groups="pdk-fs"/>
