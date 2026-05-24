@@ -31,6 +31,7 @@
   <remove-project path="packages/apps/DeskClock" />
   <remove-project path="packages/apps/Dialer" />
   <remove-project path="packages/apps/DocumentsUI" />
+  <remove-project path="packages/apps/Glimpse" />
   <remove-project path="packages/apps/LineageParts" />
   <remove-project path="packages/apps/Messaging" />
   <remove-project path="packages/apps/Settings" />
@@ -95,6 +96,7 @@
   <project name="android_packages_apps_DeskClock" remote="yaoyoro" path="packages/apps/DeskClock" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="android_packages_apps_Dialer" remote="yaoyoro" path="packages/apps/Dialer" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="android_packages_apps_DocumentsUI" remote="yaoyoro" path="packages/apps/DocumentsUI" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="android_packages_apps_Glimpse" remote="yaoyoro" path="packages/apps/Glimpse" revision="lineage-21.0"/>
   <project name="android_packages_apps_LineageParts" remote="yaoyoro" path="packages/apps/LineageParts" revision="lineage-21.0"/>
   <project name="android_packages_apps_Messaging" remote="yaoyoro" path="packages/apps/Messaging" revision="lineage-21.0" groups="pdk-fs"/>
   <project name="android_packages_apps_Settings" remote="yaoyoro" path="packages/apps/Settings" revision="lineage-21.0" groups="pdk-fs"/>
