@@ -27,6 +27,7 @@
   <remove-project path="system/sepolicy" />
   <remove-project path="system/logging" />
   <remove-project path="vendor/lineage" />
+  <remove-project path="packages/apps/AudioFX" />
   <remove-project path="packages/apps/Contacts" />
   <remove-project path="packages/apps/DeskClock" />
   <remove-project path="packages/apps/Dialer" />
@@ -34,6 +35,7 @@
   <remove-project path="packages/apps/Glimpse" />
   <remove-project path="packages/apps/LineageParts" />
   <remove-project path="packages/apps/Messaging" />
+  <remove-project path="packages/apps/MusicFX" />
   <remove-project path="packages/apps/Recorder" />
   <remove-project path="packages/apps/Settings" />
   <remove-project path="packages/apps/SettingsIntelligence" />
