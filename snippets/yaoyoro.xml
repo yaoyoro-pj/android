@@ -13,7 +13,6 @@
   <remove-project path="device/lineage/sepolicy" />
   <remove-project path="external/dng_sdk" />
   <remove-project path="external/jemalloc_new" />
-  <remove-project path="external/libpng" />
   <remove-project path="external/skia" />
   <remove-project path="frameworks/av" />
   <remove-project path="frameworks/base" />
@@ -80,7 +79,6 @@
   <project name="android_external_dng_sdk" remote="yaoyoro" path="external/dng_sdk" revision="lineage-21.0" groups="pdk"/>
   <project name="android_external_google-fonts_google-sans-flex" path="external/google-fonts/google-sans-flex" remote="yaoyoro" revision="lineage-21.0" />
   <project name="android_external_jemalloc_new" remote="yaoyoro" path="external/jemalloc_new" revision="unity" groups="pdk"/>
-  <project name="android_external_libpng" remote="yaoyoro" path="external/libpng" revision="infinity-oss" groups="pdk"/>
   <project name="android_external_skia" remote="yaoyoro" path="external/skia" revision="lineage-21.0" groups="pdk"/>
   <project name="android_frameworks_av" remote="yaoyoro" path="frameworks/av" revision="lineage-21.0" groups="pdk"/>
   <project name="android_frameworks_base" remote="yaoyoro" path="frameworks/base" revision="lineage-21.0" groups="pdk-cw-fs,pdk-fs"/>
