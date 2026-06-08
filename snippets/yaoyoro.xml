@@ -32,9 +32,11 @@
   <remove-project path="packages/apps/DeskClock" />
   <remove-project path="packages/apps/Dialer" />
   <remove-project path="packages/apps/DocumentsUI" />
+  <remove-project path="packages/apps/Eleven" />
   <remove-project path="packages/apps/Etar" />
   <remove-project path="packages/apps/ExactCalculator" />
   <remove-project path="packages/apps/Glimpse" />
+  <remove-project path="packages/apps/Jelly" />
   <remove-project path="packages/apps/LineageParts" />
   <remove-project path="packages/apps/Messaging" />
   <remove-project path="packages/apps/MusicFX" />
@@ -89,6 +91,7 @@
   <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
   <project name="android_kernel_configs" remote="yaoyoro" path="kernel/configs" revision="lineage-21.0" groups="vts,pdk"/>
   <project name="android_prebuilts_exthmui-sdk" remote="yaoyoro" path="prebuilts/exthmui-sdk" revision="Utsuho"/>
+  <project name="android_prebuilts_yaoyoro" remote="yaoyoro" path="prebuilts/yaoyoro" revision="yaoyoro-14.1"/>
   <project name="android_system_core" remote="yaoyoro" path="system/core" revision="lineage-21.0" groups="pdk"/>
   <project name="android_system_memory_libmeminfo" remote="yaoyoro" path="system/memory/libmeminfo" revision="yaoyoro-14.1" groups="pdk"/>
   <project name="android_system_memory_lmkd" remote="yaoyoro" path="system/memory/lmkd" revision="yaoyoro-14.1" groups="pdk"/>
