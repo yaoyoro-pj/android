@@ -21,6 +21,7 @@
   <remove-project path="frameworks/opt/telephony" />
   <remove-project path="hardware/lineage/interfaces" />
   <remove-project path="kernel/configs" />
+  <remove-project path="lineage-sdk" />
   <remove-project path="system/core" />
   <remove-project path="system/memory/libmeminfo" />
   <remove-project path="system/memory/lmkd" />
@@ -93,6 +94,7 @@
   <project name="android_frameworks_opt_telephony" remote="yaoyoro" path="frameworks/opt/telephony" revision="lineage-21.0" groups="pdk"/>
   <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="yaoyoro" revision="lineage-21.0" groups="pdk"/>
   <project name="android_kernel_configs" remote="yaoyoro" path="kernel/configs" revision="lineage-21.0" groups="vts,pdk"/>
+  <project name="android_lineage-sdk" path="lineage-sdk" remote="yaoyoro" revision="lineage-21.0"/>
   <project name="android_prebuilts_exthmui-sdk" remote="yaoyoro" path="prebuilts/exthmui-sdk" revision="Utsuho"/>
   <project name="android_prebuilts_yaoyoro" remote="yaoyoro" path="prebuilts/yaoyoro" revision="yaoyoro-14.1"/>
   <project name="android_system_core" remote="yaoyoro" path="system/core" revision="lineage-21.0" groups="pdk"/>
